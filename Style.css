@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ms+Madi&family=Pacifico&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+body {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Roboto Condensed";
+}
+
+.WebName {
+  font-family: "Pacifico";
+  font-size: 35px;
+  color: rgb(28, 153, 202) !important;
+}
+
+.nav-link {
+  font-size: 16px;
+  margin: 15px;
+  color: black !important;
+  font-family: "Roboto Condensed";
+}
+
+.nav-link:hover {
+  color: rgb(28, 153, 202) !important;
+}
+
+.active .nav-link {
+  color: rgb(28, 153, 202) !important;
+}
+
+.menu-right-btn {
+  padding: 13px 46px;
+  margin-right: 4%;
+  background-color: transparent;
+  transition: all 300ms ease-in;
+  width: 100px;
+}
+
+.menu-right-btn:hover {
+  background-color: rgb(28, 153, 202);
+  color: white !important;
+}
+
+.bgimg {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  width: 43rem;
+  height: 30rem;
+}
+
+.Portfolio-Name {
+  margin: 10px;
+  padding: 25px;
+  background-color: rgb(28, 153, 202);
+  color: white;
+  width: 20rem;
+  font-family: "Bebas Neue";
+  font-size: xx-large;
+}
+
+.Portfolio-desc {
+  margin: 10px;
+  /* padding: 25px; */
+  background-color: white;
+  color: rgb(28, 153, 202);
+  font-family: "Bebas Neue";
+  /* font-size: xx-large; */
+}
+
+.Description {
+  margin-top: 15rem;
+}
+
+.second {
+  width: 100rem;
+  height: 10rem;
+  background-color: #d8e5e2;
+}
+
+.First {
+  color: rgb(28, 153, 202);
+  font-family: "roboto condensed";
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.third {
+  color: rgb(65, 66, 66);
+  font-family: "Roboto condensed";
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5%;
+}
+
+.textheader {
+  width: 12rem;
+  color: black;
+  margin-left: 150px;
+}
+
+.thetext {
+  width: 25rem;
+  color: rgb(109, 110, 110);
+  text-align: center;
+}
+
+.process {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+}
+
+.pro {
+  font-family: "Bebas Neue";
+  font-size: xx-large;
+  margin-top: 15px;
+}
+
+.myskillsprogress {
+  margin: 15px 75px;
+  padding: 50px;
+}
+
+.pro2 {
+  font-family: "Bebas Neue";
+  font-size: xx-large;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.me {
+  width: 150%;
+  height: 150%;
+  border-radius: 250px;
+  margin: 30px;
+  /* padding: 20px; */
+}
+
+.AboutMeText {
+  width: 50%;
+  height: 60%;
+  margin-top: 25px;
+}
+
+.name {
+  font-family: "Bebas Neue";
+  font-size: xx-large;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.reachout {
+  text-align: center;
+  font-family: "Bebas Neue";
+  font-size: xx-large;
+  margin-top: 25px;
+}
+
+.Socials {
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin-left: 50%;
+}
